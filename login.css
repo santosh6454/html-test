@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    background: #eee;
+}
+.session{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 100% ;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    background: #fff;
+    box-shadow: 0 0 5px #99999999;
+}
+.column-left .column-right{
+    display: flex;
+    padding: 25px ;
+
+}
+.column-left {
+    width: 60%;
+    clip-path: polygon(0 0 , 0 100%, 100% 0 );
+    background-color: aquamarine;
+
+}
+.column-right{
+    padding: 40px 30px;
+    width: 50%;
+    margin-left: -10%;
+
+}
+.login-left{
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.login-left h2{
+    margin: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.login-left p{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.login-left .button{
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.login-left.button:hover{
+    color: rgb(92, 168, 168);
+    box-shadow: inset 150px 0 0 0 #fff;
+}
